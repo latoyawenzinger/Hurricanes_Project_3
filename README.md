@@ -10,11 +10,13 @@ The purpose of this project is to visual the formation, power, and damage that s
       - pressure is used to indicate how the weight of the atmosphere above is shifting
   3. **Tracking Data** 
       - tracking will show where the hurricane formed, and where is made landfall in the United States
-  5. **Damage Aftermath**
+  4. **Damage Aftermath**
       - damage data will show how much money in damages the hurricane caused once it dissapates
 
 Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/noaa/hurricane-database)
 
 **Rough sketch of the map that will populate for each hurricane**
 ![image](https://user-images.githubusercontent.com/115582691/230230943-a53a5ead-2869-494a-beb1-d2d6c7d8d647.png)
+
+- Due to the top 10 hurricanes being of category 3 or higher, our Python Flask-powered API will have routes displaying JSONs of category 3, 4, 5 hurricanes.
 
