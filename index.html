@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <style>
     body {
-      background-color: rgb(211, 221, 217);
+      background-color: rgb(170, 195, 239);
     }
 
     .jumbotron {
-      background: #74a2de;
+      background: #518ddb;
       background-size: 100% 100%;
       overflow: auto;
       width: 111%;
@@ -29,7 +29,8 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Hurricanes</h1>
-        <p>Use the interactive charts below to explore </p>
+        <p>blah...blah...</p>
+        <button class = "pushStats" onclick= "buttonClicked(value)">Click Here for Damage Stats</button> 
       </div>
     </div>
     <div class="row">
@@ -42,26 +43,17 @@
           <div class="panel-heading">
             <h3 class="panel-title">Hurricane Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="hurricaneData" class="panel-body"></div>
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar"></div>
+        <div id="map"></div>
       </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
   </div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="logic.js"></script>
+  <script src="./static/logic.js"></script>
   
   
 </body>
