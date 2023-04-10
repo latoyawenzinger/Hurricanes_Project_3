@@ -1,59 +1,50 @@
-# import Flask
 from flask import Flask, jsonify
+import sqlite3
 
-#import SQLalchemy dependencies
-import sqlalchemy
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
-
-# databease setup
-engine = create_engine("sqlite:///../Resources/.sqlite")
-
-# reflect existing database into a new model
-Base = automap_base()
-
-# reflect the tables
-Base.prepare(engine, reflect=True)
-
-#assign each class to a variable
-
-
-
-# create an app
 app = Flask(__name__)
 
+@app.route('/')
+def welcome():
 
-# start homepage
-@app.route("/")
-def home():
-     return (
-        f'Welcome to the Hurricane Category API!<br/>'
-        f'Available Routes:<br/>'
-        f'/api/v1.0/cat3'
-        f'/api/v1.0/cat4'
-        f'/api/v1.0/cat5'
+    return(
+        f"This is a Flask API for Hurricane Data and Analysis .<br/><br/><br/>"
+        f"The following are the available routes and route options for this API, ENJOY!!!<br/>"
+        f"/data<br/>"
+        f"/ID/(hurricane ID)<br/>"
+        f"The following is a list of available hurricane IDs<br/>"
+        f"AL031935<br/>"
+        f"AL031961<br/>"
+        f"AL091979<br/>"
+        f"AL041980<br/>"
+        f"AL081988<br/>"
+        f"AL041992<br/>"
+        f"AL131998<br/>"
+        f"AL122005<br/>"
+        f"AL182005<br/>"
+        f"AL252005<br/>"
     )
 
+@app.route('/data')
+def get_data():
+    conn = sqlite3.connect('top_10.sqlite')
+    cursor = conn.cursor()
+    cursor.execute('SELECT ID, Name, Date, Time, Status, Latitude, Longitude, "Maximum Wind", "Minimum Pressure" FROM top_10')
+    results = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return jsonify(results)
 
-@app.route("/api/v1.0/cat3")
-def category_3():
-    """Return a JSON list of category 3 from the dataset"""
-    
+@app.route('/<column_name>/<row_value>')
+def get_hurricanes(column_name, row_value):
+
+    conn = sqlite3.connect('top_10.sqlite')
+    cursor = conn.cursor()
+    cursor.execute(f'SELECT ID, Name, Date, Time, Status, Latitude, Longitude, "Maximum Wind", "Minimum Pressure" FROM top_10 WHERE {column_name}= "{row_value}"')
+    hurricanes = [dict(zip([column[0] for column in cursor.description], row)) for row in cursor.fetchall()]
+    conn.close()
+    return jsonify(hurricanes)
 
 
-@app.route("/api/v1.0/cat4")
-def category_4():
-    """Return a JSON list of category 4 from the dataset"""
-    
 
-
-@app.route("/api/v1.0/cat5")
-def category_5():
-    """Return a JSON list of category 5 from the dataset"""
-   
-    
-
-   
 if __name__ == '__main__':
     app.run(debug=True)
