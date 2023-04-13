@@ -43,6 +43,7 @@ All other csv files and our SQLite file were created using jupyter notebook
 
 
 Refernces/Tools used in ACRGIS map creation. 
+
 https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html
 
 https://developers.arcgis.com/javascript/latest/api-reference/esri-webmap-ApplicationProperties.html
@@ -68,5 +69,7 @@ https://developers.arcgis.com/javascript/latest/es-modules/
 https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelements/
 
 https://nodejs.org/en
+
 Used to create CSV's for damage numbers
+
 https://www.ncei.noaa.gov/access/billions/dcmi.pdf
