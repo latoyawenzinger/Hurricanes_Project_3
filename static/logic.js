@@ -24,6 +24,7 @@ function init() {
 
 init();
 
+
 function hurricanePanel(name) {
     d3.csv('/Resources/top_10snapshot.csv').then(data=> {
         
@@ -50,7 +51,7 @@ function optionChanged(value) {
 function buttonClicked(value) {
 
     // Use D3 to retrieve all of the data
-    d3.csv('/Resources/Damage_Numbers_Updated.csv').then((data) => {
+    d3.csv('/Resources/Damage_Numbers_Updated (2).csv').then((data) => {
         d3.select('#selDataset').html('');
         d3.select('#hurricaneData').html('');
 
@@ -62,6 +63,7 @@ function buttonClicked(value) {
 
         // Get the damage and year data for the selected hurricanes
         let damageData = filteredData.map((d) => d['Damage']);
+        let damageDisplay = damageData*0.2
         let yearData = filteredData.map((d) => d['Year']);
 
         // Get the hurricane name and category data for the selected hurricanes
@@ -74,9 +76,7 @@ function buttonClicked(value) {
             y: damageData,
             mode: "markers",
             marker: {
-                size: damageData,
-                sizemode: 'diameter',
-                sizeref: 100000,
+                size: damageDisplay,
                 color: categories,
                 colorscale: 'Bluered',
                 colorbar: {
@@ -106,11 +106,3 @@ function buttonClicked(value) {
         Plotly.newPlot("bubble", [trace1], layout);
     });
 };
-    
-
-
-
-
-
-
-
