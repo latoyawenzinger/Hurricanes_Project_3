@@ -97,7 +97,7 @@ function buttonClicked(value) {
             annotations: names.map((name, i) => ({
                 x: yearData[i],
                 y: damageData[i],
-                text: name,
+                text: '',
                 showarrow: false
             }))
         };
