@@ -68,6 +68,8 @@ https://developers.arcgis.com/javascript/latest/es-modules/
 
 https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelements/
 
+Tools for installing packages for ARCGIS 
+
 https://nodejs.org/en
 
 https://docs.npmjs.com/
