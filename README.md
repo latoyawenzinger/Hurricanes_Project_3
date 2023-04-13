@@ -39,3 +39,34 @@ https://mungingdata.com/sqlite/create-database-load-csv-python/
 Original Data (atlantic.csv):
 https://www.kaggle.com/datasets/noaa/hurricane-database?resource=download
 All other csv files and our SQLite file were created using jupyter notebook
+
+
+
+Refernces/Tools used in ACRGIS map creation. 
+https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html
+
+https://developers.arcgis.com/javascript/latest/api-reference/esri-webmap-ApplicationProperties.html
+
+https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview
+
+https://www.arcgis.com/home/item.html?id=dd247558455c4ffab54566901a14f42c
+
+https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelements/
+
+https://developers.arcgis.com/javascript/latest/api-reference/esri-popup-content-BarChartMediaInfo.html
+
+https://developers.arcgis.com/javascript/latest/api-reference/esri-portal-Portal.html
+
+https://developers.arcgis.com/javascript/latest/sample-code/widgets-basemapgallery/
+
+https://developers.arcgis.com/javascript/latest/api-reference/esri-WebMap.html
+
+https://developers.arcgis.com/javascript/latest/display-a-web-map/
+
+https://developers.arcgis.com/javascript/latest/es-modules/
+
+https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelements/
+
+https://nodejs.org/en
+Used to create CSV's for damage numbers
+https://www.ncei.noaa.gov/access/billions/dcmi.pdf
