@@ -15,14 +15,15 @@ The purpose of this project is to visual the formation, power, and damage that s
 
 Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/noaa/hurricane-database)
 
-**Rough sketch of the map that will populate for each hurricane**
-![image](https://user-images.githubusercontent.com/115582691/230230943-a53a5ead-2869-494a-beb1-d2d6c7d8d647.png)
+- There is a dropdown element that holds the top 10 most powerful Hurricanes in dataset. The user can pick any Hurricane of their choosing.
+![image](https://user-images.githubusercontent.com/115582691/231892259-da5c5bab-7195-44cb-88ac-ca487fc2b204.png)
 
-- Due to the top 10 hurricanes being of category 3 or higher, our Python Flask-powered API will have routes displaying JSONs of category 3, 4, 5 hurricanes.
+- Once an ID is choosen, a demographics panel will populate with that specifed ID's demographics.
+
+
 
 References:
 -https://plotly.com/javascript/colorscales/
 -https://plotly.com/javascript/bubble-charts/
 -https://code.tutsplus.com/tutorials/create-interactive-charts-using-plotlyjs-bubble-and-dot-charts--cms-29209
 -https://www.w3schools.com/js/js_array_sort.asp
--Modules / Activities / Homework in Class
