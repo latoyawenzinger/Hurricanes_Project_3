@@ -70,6 +70,10 @@ https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelemen
 
 https://nodejs.org/en
 
+https://docs.npmjs.com/
+
+https://www.npmjs.com/
+
 Used to create CSV's for damage numbers
 
 https://www.ncei.noaa.gov/access/billions/dcmi.pdf
