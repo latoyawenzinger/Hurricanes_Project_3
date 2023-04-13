@@ -1,13 +1,12 @@
 # Hurricanes_Project_3
 
-**Proposal**
 
 The purpose of this project is to visual the formation, power, and damage that strong hurricanes can cause. We will explore 10 powerful hurricanes that will be displayed via an interactive dashboard.
 
 **Topic**- Hurricanes:
   Each listed Hurricane provide data for 3 categories: 
-  1. **Pressure**
-      - pressure is used to indicate how the weight of the atmosphere above is shifting
+  1. **Pressure/Wind Speed**
+      - pressure is used to indicate how the weight of the atmosphere above is shifting, and wind speed is used to determine category
   3. **Tracking Data** 
       - tracking will show where the hurricane formed, and where is made landfall in the United States
   4. **Damage Aftermath**
