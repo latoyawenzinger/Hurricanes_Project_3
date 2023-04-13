@@ -79,3 +79,7 @@ https://www.npmjs.com/
 Used to create CSV's for damage numbers
 
 https://www.ncei.noaa.gov/access/billions/dcmi.pdf
+
+SVG to link website used to create hyperlinks 
+
+https://svgshare.com/
