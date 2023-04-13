@@ -40,7 +40,7 @@ Original Data (atlantic.csv):
 https://www.kaggle.com/datasets/noaa/hurricane-database?resource=download
 All other csv files and our SQLite file were created using jupyter notebook
 
-
+Flask application created using notes from this course and sqlite3 documentation
 
 Refernces/Tools used in ACRGIS map creation. 
 
