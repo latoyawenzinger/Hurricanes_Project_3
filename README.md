@@ -73,6 +73,7 @@ https://developers.arcgis.com/javascript/latest/es-modules/
 https://developers.arcgis.com/javascript/latest/sample-code/popup-multipleelements/
 
 Website used to create custom Hurricane images on map.
+
 https://img.icons8.com/color/1x/hurricane.png
 
 Tools for installing packages for ARCGIS 
