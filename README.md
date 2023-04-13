@@ -16,6 +16,7 @@ The purpose of this project is to visual the formation, power, and damage that s
 Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/noaa/hurricane-database)
 
 - There is a dropdown element that holds the top 10 most powerful Hurricanes in dataset. The user can pick any Hurricane of their choosing.
+
 ![image](https://user-images.githubusercontent.com/115582691/231892259-da5c5bab-7195-44cb-88ac-ca487fc2b204.png)
 
 - Once a Hurricane is choosen, a info panel will populate with a snapshot of that Hurricane.
