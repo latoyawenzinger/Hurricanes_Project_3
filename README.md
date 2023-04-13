@@ -24,3 +24,4 @@ References:
 -https://plotly.com/javascript/colorscales/
 -https://plotly.com/javascript/bubble-charts/
 -https://code.tutsplus.com/tutorials/create-interactive-charts-using-plotlyjs-bubble-and-dot-charts--cms-29209
+-https://www.w3schools.com/js/js_array_sort.asp
