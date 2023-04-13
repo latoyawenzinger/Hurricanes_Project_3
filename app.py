@@ -1,5 +1,6 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import sqlite3
+
 
 app = Flask(__name__)
 
@@ -43,6 +44,12 @@ def get_hurricanes(column_name, row_value):
     hurricanes = [dict(zip([column[0] for column in cursor.description], row)) for row in cursor.fetchall()]
     conn.close()
     return jsonify(hurricanes)
+
+@app.route('/dashboard')
+def dashboard():
+    return render_template('index.html')
+        
+    
 
 
 
