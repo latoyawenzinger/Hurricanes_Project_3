@@ -19,7 +19,7 @@ Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/no
 
 ![image](https://user-images.githubusercontent.com/115582691/231892259-da5c5bab-7195-44cb-88ac-ca487fc2b204.png)
 
-- Once a Hurricane is choosen, a info panel will populate with a snapshot of that Hurricane.
+- Once a Hurricane is chosen, an info panel will populate with a snapshot of that Hurricane.
 
 ![image](https://user-images.githubusercontent.com/115582691/231897777-baee89e4-4e28-473b-ac85-0a20873a36b3.png)
 
