@@ -27,3 +27,15 @@ References:
 -https://plotly.com/javascript/bubble-charts/
 -https://code.tutsplus.com/tutorials/create-interactive-charts-using-plotlyjs-bubble-and-dot-charts--cms-29209
 -https://www.w3schools.com/js/js_array_sort.asp
+
+https://www.fullstackpython.com/flask-templating-render-template-examples.html
+
+SQLite3 docs for flask:
+https://docs.python.org/3/library/sqlite3.html
+
+sqlite3 documentation and csv_to_sqlite documentation:
+https://mungingdata.com/sqlite/create-database-load-csv-python/
+
+Original Data (atlantic.csv):
+https://www.kaggle.com/datasets/noaa/hurricane-database?resource=download
+All other csv files and our SQLite file were created using jupyter notebook
