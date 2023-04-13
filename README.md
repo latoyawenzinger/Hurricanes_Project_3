@@ -20,3 +20,6 @@ Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/no
 
 - Due to the top 10 hurricanes being of category 3 or higher, our Python Flask-powered API will have routes displaying JSONs of category 3, 4, 5 hurricanes.
 
+References:
+-https://plotly.com/javascript/colorscales/
+-https://plotly.com/javascript/bubble-charts/
