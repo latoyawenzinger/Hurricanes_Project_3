@@ -18,7 +18,9 @@ Dataset pulled from:  [**Hurricane Dataset**](https://www.kaggle.com/datasets/no
 - There is a dropdown element that holds the top 10 most powerful Hurricanes in dataset. The user can pick any Hurricane of their choosing.
 ![image](https://user-images.githubusercontent.com/115582691/231892259-da5c5bab-7195-44cb-88ac-ca487fc2b204.png)
 
-- Once an ID is choosen, a demographics panel will populate with that specifed ID's demographics.
+- Once a Hurricane is choosen, a info panel will populate with a snapshot of that Hurricane.
+![image](https://user-images.githubusercontent.com/115582691/231897777-baee89e4-4e28-473b-ac85-0a20873a36b3.png)
+
 
 
 
@@ -40,7 +42,7 @@ Original Data (atlantic.csv):
 https://www.kaggle.com/datasets/noaa/hurricane-database?resource=download
 All other csv files and our SQLite file were created using jupyter notebook
 
-Flask application created using notes from this course and sqlite3 documentation
+
 
 Refernces/Tools used in ACRGIS map creation. 
 
